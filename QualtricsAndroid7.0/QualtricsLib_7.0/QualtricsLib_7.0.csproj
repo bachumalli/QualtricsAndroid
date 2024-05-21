@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-android34.0</TargetFramework>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <RootNamespace>QualtricsLib_7._0</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Jars\digital-2.14.0.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Square.OkHttp3" Version="4.12.0.3" />
+    <PackageReference Include="Square.OkHttp3.LoggingInterceptor" Version="4.12.0.3" />
+    <PackageReference Include="Square.Retrofit2" Version="2.9.0.7" />
+    <PackageReference Include="Square.Retrofit2.ConverterGson" Version="2.9.0.7" />
+    <PackageReference Include="Square.Retrofit2.ConverterScalars" Version="2.9.0.7" />
+  </ItemGroup>
+</Project>
